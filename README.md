@@ -8,6 +8,7 @@ Models Used:
 LogisticRegression, KNN, DecisionTreeClassifier, XGBClassifier (Best), SVM & RandomForestClassifier
 
 Project Overview:
+
 • Defined a series of helper functions that will help us use the API to extract information using identification numbers in the launch data.
 
 • Started requesting rocket launch data from SpaceX API with the URL link 'https://api.spacexdata.com/v4/launches/past'. Requested and parsed the SpaceX launch data using the GET request. Created a Pandas dataframe from the dictionary launch_dict
